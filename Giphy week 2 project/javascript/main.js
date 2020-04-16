@@ -31,7 +31,7 @@ if(e.which === 13){
 }*/
 
 function pushToAPI(input){ //define what is pushToAPI(input) function where you need to connect the API URL to the search
-  var url = "http://api.giphy.com/v1/gifs/search?q="+ input +"&api_key=XqTSUbV29XPqP5qr49JrcQc7SBigIWLh&limit=20";
+  var url = "https://api.giphy.com/v1/gifs/search?q="+ input +"&api_key=XqTSUbV29XPqP5qr49JrcQc7SBigIWLh&limit=20";
 
 //console.log(url);
 
